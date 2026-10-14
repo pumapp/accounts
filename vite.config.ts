@@ -1,3 +1,4 @@
+
 import tailwindcss from '@tailwindcss/vite';
 import react from '@vitejs/plugin-react';
 import { VitePWA } from 'vite-plugin-pwa';
@@ -6,6 +7,7 @@ import { defineConfig } from 'vite';
 
 export default defineConfig(() => {
   return {
+    base: '/accounts/',
     plugins: [
       react(),
       tailwindcss(),
@@ -13,24 +15,25 @@ export default defineConfig(() => {
         registerType: 'autoUpdate',
         includeAssets: ['icon.svg', 'apple-touch-icon.png'],
         manifest: {
-          id: '/',
+          id: '/accounts/',
           name: 'Puma Art Printers ERP',
           short_name: 'PumaERP',
-          description: 'Free Mobile ERP & Accounting Software for Puma Art Printers (Lahore, Pakistan)',
+          description:
+            'Free Mobile ERP & Accounting Software for Puma Art Printers',
           theme_color: '#0F172A',
           background_color: '#0F172A',
           display: 'standalone',
-          start_url: '/',
-          scope: '/',
+          start_url: '/accounts/',
+          scope: '/accounts/',
           icons: [
             {
-              src: '/icon.svg',
+              src: '/accounts/icon.svg',
               sizes: '192x192 512x512',
               type: 'image/svg+xml',
               purpose: 'any',
             },
             {
-              src: '/icon.svg',
+              src: '/accounts/icon.svg',
               sizes: '512x512',
               type: 'image/svg+xml',
               purpose: 'maskable',
