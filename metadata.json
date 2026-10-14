@@ -1,0 +1,6 @@
+{
+  "name": "Puma Art Printers ERP",
+  "description": "Free Mobile ERP & Double-Entry Accounting Software for Puma Art Printers packaging and printing factory in Lahore, Pakistan.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

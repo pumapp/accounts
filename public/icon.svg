@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="blueGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F172A"/>
+      <stop offset="100%" stop-color="#1E3A8A"/>
+    </linearGradient>
+    <linearGradient id="cmykGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00AEEF"/>
+      <stop offset="33%" stop-color="#EC008C"/>
+      <stop offset="66%" stop-color="#FFF200"/>
+      <stop offset="100%" stop-color="#231F20"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="url(#blueGrad)"/>
+  <!-- CMYK Accent Bar -->
+  <rect x="96" y="80" width="320" height="12" rx="6" fill="url(#cmykGrad)"/>
+  <!-- Box / Packaging Icon + Letter P -->
+  <g fill="none" stroke="#FFFFFF" stroke-width="24" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Isometric Cube / Carton -->
+    <path d="M256 140 L380 205 L256 270 L132 205 Z" fill="#1E40AF" fill-opacity="0.4"/>
+    <path d="M132 205 L256 270 L256 400 L132 335 Z" fill="#1E3A8A" fill-opacity="0.7"/>
+    <path d="M380 205 L256 270 L256 400 L380 335 Z" fill="#3B82F6" fill-opacity="0.5"/>
+    <path d="M256 140 L380 205 L380 335 L256 400 L132 335 L132 205 Z"/>
+    <path d="M256 270 L256 400"/>
+  </g>
+  <!-- Stylized Letter P badge inside -->
+  <circle cx="256" cy="270" r="44" fill="#0284C7"/>
+  <text x="256" y="286" font-family="system-ui, -apple-system, sans-serif" font-size="44" font-weight="900" fill="#FFFFFF" text-anchor="middle">P</text>
+  <text x="256" y="445" font-family="system-ui, -apple-system, sans-serif" font-size="24" font-weight="800" fill="#93C5FD" text-anchor="middle" letter-spacing="4">PUMA ART</text>
+</svg>
